@@ -7,7 +7,7 @@ var output = 0;
 for(var i = 1; i <= num; i++) {
   output = output + i;
 }
-  console.log(output);	
+console.log(output);	
   
 //Exercise_Two  
 
@@ -26,19 +26,20 @@ if (wantPlay == "yes") {
 }
 console.log(string);
 
-//Exercise_Three -- work in progress
+//Exercise_Three
+
+var userName = prompt("What is your name?");
 
 var result = prompt("Would you like to print your name?");
 
-var string;
-
-string = prompt("What is your name?");
-
-while (response == "yes"); {
-console.log();
+while (result === "yes") {
+console.log("Hello, my name is " + userName);
+userName += "!";
+result = prompt("Would you like to print this again?");
 }
 
 //Exercise_Four
+
 var TimeOday = prompt("What time of day is it?");
 
 if (TimeOday == 'morning') { 
@@ -50,4 +51,3 @@ if (TimeOday == 'morning') {
 } else {
 console.log("We don't understand; please tell us again.")
 }
-
