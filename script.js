@@ -1,4 +1,4 @@
-//Exercise_One
+// //Exercise_One
 
 var num = prompt("Enter A Number!"); 
 
@@ -9,7 +9,7 @@ for(var i = 1; i <= num; i++) {
 }
 console.log(output);	
   
-//Exercise_Two  
+// //Exercise_Two  
 
 var wantPlay = prompt("Do you want to play?");
 var string = "";
@@ -28,14 +28,14 @@ console.log(string);
 
 //Exercise_Three
 
+var choice = prompt("Would you like to print your name?");
+
 var userName = prompt("What is your name?");
 
-var result = prompt("Would you like to print your name?");
-
-while (result === "yes") {
+while (choice == "yes") {
 console.log("Hello, my name is " + userName);
 userName += "!";
-result = prompt("Would you like to print this again?");
+choice = prompt("Would you like to print this again?");
 }
 
 //Exercise_Four
