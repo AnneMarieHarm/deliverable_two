@@ -1,44 +1,44 @@
 // //Exercise_One
 
-var num = prompt("Enter A Number!"); 
+// var num = prompt("Enter A Number!"); 
 
-var output = 0;
+// var output = 0;
 
-for(var i = 1; i <= num; i++) {
-  output = output + i;
-}
-console.log(output);	
+// for(var i = 1; i <= num; i++) {
+//   output = output + i;
+// }
+// console.log(output);	
   
-// //Exercise_Two  
+// Exercise_Two  
 
-var wantPlay = prompt("Do you want to play?");
-var string = "";
-var word;
+// var wantPlay = prompt("Do you want to play?");
+// var string = "";
+// var word;
 
-if (wantPlay == "yes") {
+// if (wantPlay == "yes") {
 
-  do {
-    word = prompt ("Enter a Word.");
-    string = string + word + " ";
-    wantPlay = prompt("Do you want to play again?");
-  } while 
-    (wantPlay == "yes")
-}
-console.log(string);
+//   do {
+//     word = prompt ("Enter a Word.");
+//     string = string + word + " ";
+//     wantPlay = prompt("Do you want to play again?");
+//   } while 
+//     (wantPlay == "yes")
+// }
+// console.log(string);
 
-//Exercise_Three
+// Exercise_Three
 
-var choice = prompt("Would you like to print your name?");
+// var choice = prompt("Would you like to print your name?");
 
-var userName = prompt("What is your name?");
+// var userName = prompt("What is your name?");
 
-while (choice == "yes") {
-console.log("Hello, my name is " + userName);
-userName += "!";
-choice = prompt("Would you like to print this again?");
-}
+// while (choice == "yes") {
+// console.log("Hello, my name is " + userName);
+// userName += "!";
+// choice = prompt("Would you like to print this again?");
+// }
 
-//Exercise_Four
+// Exercise_Four
 
 var TimeOday = prompt("What time of day is it?");
 
